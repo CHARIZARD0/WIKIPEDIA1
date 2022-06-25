@@ -1,0 +1,67 @@
+body{
+    min-width: 200px;
+    max-width: 450;
+    min-height: 100;
+    max-height: 500;
+    overflow-x: scroll;
+}
+
+h1{
+    border-color: white black purple darkgrey;
+    border-width: 0.1cm;
+    border-style: dotted;
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    color:red;
+    text-indent: 20px;
+    border-radius: 10px;
+    height: 80px;
+    width: 90px;
+    max-width: 450%;
+    min-width: 100;
+    max-height: 450%;
+    min-height: 100%;
+}
+p.one{
+    background-color: rgb(66, 64, 64);
+    width: 75%;
+    height: 100%;
+    color:hsl(0, 18%, 93%);
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   padding: 0.5cm; 
+   margin: 0.5cm;
+}
+p.one:first-letter{
+    font-size: 500%;
+}
+p.one:first-line{
+    font-style: italic;
+}
+a:link{
+    color: darkcyan;
+    text-decoration: overline;
+}
+a:visited{
+    color: rgb(21, 236, 9);
+}
+a:hover{
+    zoom: 200%;
+    text-decoration: underline;
+    cursor: pointer;
+}
+a:active{
+    color: black;
+}
+p.two{
+    background-color: black;
+    line-height: 200%;
+    word-spacing: 120%;
+    letter-spacing: 0.4ch;
+    text-shadow: -1px -2px #cac9c9;
+}
+ul li{
+    text-transform: capitalize;
+    list-style-type: lower-alpha;
+}
